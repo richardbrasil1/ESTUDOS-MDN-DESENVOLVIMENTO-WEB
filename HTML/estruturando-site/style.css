@@ -134,5 +134,7 @@ aside img {
 }
 
 footer {
+  background-color: black;
+  color: white;
   margin-top: 10px;
 }
