@@ -7,6 +7,7 @@ body{
 }
 nav{
     background-color: black;
+    align-items: center;
 }
 nav > a{    
     text-decoration:none;
@@ -38,4 +39,7 @@ main{
 }
 footer{
     margin: auto;
+}
+footer > nav{
+    text-decoration: none;
 }
