@@ -19,8 +19,14 @@
             <input type="submit" value="Go!">
         </form>
     </nav>
-    <header><img src="imagens/yone-header.jpg" alt="personagem Yone" id="yonehead"></header>
-    <main>        
+    <header>
+        <div><picture>
+            <source media="(max-width: 480px )" srcset="imagens/yone-header-480px.jpg">
+            <img src="imagens/yone-header.jpg" alt="personagem Yone" id="yonehead">
+        </picture></div>
+    </header>
+    <main>
+        
         <article>
             <h1>NOTAS DA ATUALIZAÇÃO 3.4 DO WILD RIFT</h1> 
             <p>Preparem-se para ganhar uma vantagem afiadíssima quando Gwen e Yone chegarem ao Rift nessa atualização! Só tomem cuidado
@@ -44,9 +50,11 @@
             
             Ainda temos muito a fazer e não alcançamos nosso Pico de Poder, mas, para saber o que vem por aí, dê uma espiadinha na
             nossa Prévia da Atualização 3.4!</p>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/WOf6erjT5WU" title="YouTube video player"
-                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
+            <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/WOf6erjT5WU" title="YouTube video player"
+                    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
                 <p>OBS.: agora que lançamos o Escudo Relicário, da Missão para Suportes, tá tranquilo deixar os suportes farmarem se
                 tiverem uma carga. E melhor ainda: vocês ganham ouro adicional também.
                 
@@ -58,7 +66,12 @@
                 <h2>NOVIDADES</h2>
                 <h3>NOVOS CAMPEÕES</h3>
                 <h4>GWEN, A COSTUREIRA ENCANTADA</h4>
-                <img src="imagens/gwen-foto.jpg" alt="persongaem gwen" class="fotopersonagem">
+
+                <picture>
+                    <source media="(max-width: 480px )" srcset="imagens/gwen-foto-480.jpg">
+                    <img src="imagens/gwen-foto.jpg" alt="persongaem gwen" class="fotopersonagem">
+                </picture>
+
                 <p>Gwen, uma boneca transfigurada que ganhou vida através da magia, empunha as mesmas ferramentas que a criaram. Ela
                 carrega o peso do amor de sua criadora a cada passo, sem desperdiçar um único momento. Ela comanda a Névoa Sagrada, uma
                 magia antiga e protetora que abençoou as tesouras, agulhas e linhas da Costureira. Quase tudo é novo para ela, mas Gwen
@@ -66,7 +79,11 @@
                 
                 Gwen será lançada em 14 de setembro às 21:01 BRT.</p>
                 <h4>YONE, O INESQUECIDO</h4>
-                <img src="imagens/yone-foto.jpg" alt="personagem yone" class="fotopersonagem">
+
+                <picture>
+                    <source media="(max-width: 480px )" srcset="imagens/yone-foto-480.jpg">
+                    <img src="imagens/yone-foto.jpg" alt="personagem yone" class="fotopersonagem"></picture>
+
                 <p>Em vida, ele foi Yone; meio-irmão de Yasuo e um respeitado aluno da escola de espadachins de seu vilarejo. Mas, ao
                 morrer pelas mãos do irmão, ele se viu perseguido por uma entidade maligna do Reino Espiritual e foi forçado a
                 exterminá-la com a mesma espada que o ser empunhava. Agora, condenado a usar a máscara demoníaca da entidade, Yone

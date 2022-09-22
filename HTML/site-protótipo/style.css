@@ -23,7 +23,10 @@ nav > a{
     
 }
 main{
-    
+    margin: auto;
+    padding: 0px 10px;
+    max-width: 1000px;
+    min-width: 400px;
 
 }
 
@@ -32,14 +35,30 @@ main{
     width: 660px;
 }
 
-#yonehead {
-    height: 700px;
-    width: 1000px;
-    margin: auto;
+
+img {
+    display: block;    
+    max-width: 100%;
 }
+div.video {    
+    margin: 0px -20px 30x -20px;
+    padding: 20px;
+    padding-bottom: 40.5%;
+    position: relative;
+}
+
+div.video>iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 70%;
+    height: 90%;
+}
+
 footer{
     margin: auto;
 }
 footer > nav{
     text-decoration: none;
+    margin: 0px;
 }
